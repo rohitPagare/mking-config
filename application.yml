@@ -1,2 +1,9 @@
 jwt:
-  secret: "your-jwt-secret-key"
+  secret: "ysHXkdWOUXPb7ivfUTwF8R3BvDRgUYkjEctaqRD7I9u1JiBijGZU1/XzSzKKB+mUIhvQW93UgEI="
+
+#Download the JAR jasypt-1.9.3 in donwloads
+#goto terminal and check jar is present or not
+#Check Command ->
+#jar tf jasypt-1.9.3.jar | grep JasyptPBEStringEncryptionCLI
+#Encrypt Command->
+#java -cp jasypt-1.9.3.jar org.jasypt.intf.cli.JasyptPBEStringEncryptionCLI encrypt input="q6utrwBd/LrUgal2YBGSNtXttXsWFitD8jGAH+TNE0Q=" password="123qwe"
