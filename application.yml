@@ -1,6 +1,12 @@
 jwt:
   secret: q6utrwBd/LrUgal2YBGSNtXttXsWFitD8jGAH+TNE0Q=
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mking
+    username: root
+    password: 123Qwe@!
+
 #Download the JAR jasypt-1.9.3 in donwloads
 #goto terminal and check jar is present or not
 #Check Command ->
